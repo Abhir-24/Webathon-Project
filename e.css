@@ -1,0 +1,89 @@
+*{
+
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{
+	font-size: 20px;
+	overflow-x: hidden;
+}
+header{
+	background-image: linear-gradient(rgba(0,0,100,0.4),rgba(0,0,100,0.4)),url('js.jpg');
+	height: 120vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: all; 
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.items
+{
+	float: right;
+	margin-top: 20px;
+}
+
+.items li{
+	display: inline-block;
+	list-style: none;
+	margin-left: 40px;
+}
+.items li a{
+	padding: 5px 0px;
+	color: lightblue;
+	text-decoration: none;
+	font-size: 20px;
+} 
+
+.items li a:hover{
+	border-bottom: 2px solid lightblue;
+}
+
+.list h1{
+	float: left;
+	margin-top: 20px;
+	font-size: 60px;
+	font-weight: 100; 
+	letter-spacing: 2px;
+}
+
+	
+
+.content{
+	float: left;
+    margin-top: 90px;
+    font-size: 30px;
+    color: white;
+}
+
+.intro{
+	margin-top: 80px;
+	float: left;
+	color: white;
+	font-variant: unicase; 
+
+}
+
+.part{
+	border: 2px solid white;
+	font-family: 'Crimson Text', serif;
+
+}
+.intro span{
+    font-size: 40px;
+    
+}
+.head{
+	font-family: 'Arvo', serif;
+	animation: colo 1s infinite;
+}
+
+@keyframes colo{
+	0%{color: blue;}
+	25%{color: violet;}
+	50%{color: white;}
+	75%{color: yellow;}
+	100%{color: green;}
+}
+

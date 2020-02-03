@@ -1,0 +1,168 @@
+*{
+
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{
+	font-size: 20px;
+	overflow-x: hidden;
+}
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url('js2.jpg');
+	height: 120vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: all; 
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.items
+{
+	float: right;
+	margin-top: 20px;
+}
+
+.items li{
+	display: inline-block;
+	list-style: none;
+	margin-left: 40px;
+}
+.items li a{
+	padding: 5px 0px;
+	color: lightblue;
+	text-decoration: none;
+	font-size: 20px;
+} 
+
+.items li a:hover{
+	border-bottom: 2px solid lightblue;
+}
+
+.list h1{
+	float: left;
+	margin-top: 20px;
+	font-size: 60px;
+	font-weight: 100; 
+	letter-spacing: 2px;
+}
+
+	
+
+.content{
+	float: left;
+    margin-top: 90px;
+    font-size: 30px;
+    color: white;
+}
+
+.intro{
+	margin-top: 120px;
+	float: left;
+	color: white;
+	font-variant: unicase; 
+
+}
+
+.in1{
+	margin-top: 60px;
+	float: left;
+	color: white;
+	font-variant: unicase; 
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.in2{
+	margin-top: 140px;
+	float: left;
+	color: white;
+	font-variant: unicase; 
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.part{
+	border: 2px solid white;
+	font-family: 'Crimson Text', serif;
+
+}
+.eg{
+	background-color: grey;
+	color: yellow;
+}
+    
+
+.head{
+	font-family: 'Arvo', serif;
+	animation: colo 1s infinite;
+}
+
+.bodmas{
+	margin-top: 140px;
+	float: right;
+}
+
+.bodmas a{
+	display: inline-block;
+	margin-right: 40px;
+	padding: 5px 0px;
+}
+
+.add{
+	 padding: 10px 30px;
+	 text-decoration: none;
+	 text-transform: uppercase;
+	 border-radius: 100px;
+	 transition: background-color 0.2s, border 0.2s, color 0.2
+}
+
+.k1{
+	background-color: transparent;
+	color: orange;
+	margin-right: 15px;
+	border: 1px solid orange;
+}
+
+.k1:hover{
+	background-color: yellow;
+}
+.k2{
+	background-color: transparent;
+	color: green;
+	margin-right: 15px;
+	border: 1px solid green;
+}
+.k2:hover{
+	background-color: lightgreen;
+}
+
+.k3{
+	background-color: transparent;
+	color: pink;
+	margin-right: 15px;
+	border: 1px solid pink;
+}
+.k3:hover{
+	background-color: violet;
+}
+
+.k4{
+	background-color: transparent;
+	color: brown;
+	margin-right: 15px;
+	border: 1px solid brown;
+}
+.k4:hover{
+	background-color: indigo;
+}
+@keyframes colo{
+	0%{color: blue;}
+	25%{color: violet;}
+	50%{color: white;}
+	75%{color: yellow;}
+	100%{color: green;}
+}
+
+
